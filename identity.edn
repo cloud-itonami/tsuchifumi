@@ -1,0 +1,3 @@
+{:identity/id :etzhayyim/tsuchifumi
+ :identity/did "did:web:etzhayyim.com:tsuchifumi"
+ :identity/repository "etzhayyim/com-etzhayyim-tsuchifumi"}

@@ -1,0 +1,7 @@
+{:canonical :edn
+ :required ["actor.edn" "identity.edn" "manifest.edn" "dependencies.edn"
+            "kotoba.app.edn" "schema/tsuchifumi.edn" "schema/ontology.edn"
+            "data/kotoba-seed.edn"]
+ :wire-json []
+ :forbidden-extensions [".go" ".sh" ".wasm" ".json" ".jsonld" ".bpmn"]
+ :forbidden-files ["go.mod" "go.sum"]}

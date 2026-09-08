@@ -21,7 +21,7 @@
 
   The DISCLAIMER NAMES the prohibited concepts in order to disclaim them, so it is
   STRIPPED before every token scan (shionome pattern). Stdlib only. Deterministic."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [tsuchifumi.methods.analyze :as an]
             [tsuchifumi.methods.tsuchifumi-edn :as te]))
 
@@ -51,8 +51,8 @@
 (defn- scan
   "Return the first blocklist token present in `body` (DISCLAIMER stripped), or nil."
   [body tokens]
-  (let [scanned (str/lower-case (str/replace (str body) DISCLAIMER ""))]
-    (some (fn [t] (when (str/includes? scanned (str/lower-case t)) t)) tokens)))
+  (let [scanned (str/lower (str/replace (str body) DISCLAIMER ""))]
+    (some (fn [t] (when (str/includes? scanned (str/lower t)) t)) tokens)))
 
 (defn guard-no-fear [body]
   (when-let [t (scan body fear-tokens)]

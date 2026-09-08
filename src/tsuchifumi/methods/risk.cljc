@@ -21,7 +21,7 @@
   Severity band (raw): ≥0.5 :critical · ≥0.3 :high · ≥0.15 :medium · else :low.
 
   This is OBSERVATION + leverage analysis, never a directive to act on any person (G1)."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [tsuchifumi.methods.tsuchifumi-edn :as te]))
 
 (def tier-weights {:established 1.0 :emerging 0.6 :contested 0.35 :anecdotal 0.15})

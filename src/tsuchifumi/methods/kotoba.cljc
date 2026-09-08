@@ -15,7 +15,7 @@
   No-server-key: this writer holds no key and performs NO network I/O — it only
   appends to a local file. Verdicts are :synthetic at R0; the ledger is auditable
   (a relief record, NEVER a harm/target list, NEVER person-level — G1/G3)."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             #?(:clj [clojure.java.io :as io])))
 
 (defn add [entity attr value] [":db/add" entity attr value])

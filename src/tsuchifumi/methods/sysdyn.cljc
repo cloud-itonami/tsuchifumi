@@ -31,7 +31,7 @@
     :relief   — institutionalize earthing/greenspace access (what the actor proposes)
 
   Deterministic: ensemble jitter is sha256-seeded (no Math/random) → resume-safe."
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 ;; ── deterministic seeded unit noise (no Math/random; hakoniwa pattern) ───────
 (defn- sha256-hex [^String s]

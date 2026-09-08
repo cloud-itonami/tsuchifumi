@@ -31,7 +31,7 @@
     G-non-diagnostic/no-commerce/no-fear — inherited via the mechanism set + social guards.
     G-leash        the identified action is a DRY-RUN proposal carried by ossekai; the
                    identified research is a STUDY request — coscientist never acts."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [tsuchifumi.methods.analyze :as an]
             [tsuchifumi.methods.tsuchifumi-edn :as te]))
 

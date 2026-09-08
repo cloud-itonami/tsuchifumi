@@ -17,7 +17,7 @@
   The HTML carries the same epistemic-honesty banner as every other surface (G2/G6):
   the burden is a HYPOTHESIZED model variable, not an asserted clinical quantity.
   Pattern sibling of tatara's self-contained canvas globes."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [tsuchifumi.methods.sysdyn :as sd]
             [tsuchifumi.methods.analyze :as an]
             [tsuchifumi.methods.risk :as risk]

@@ -35,7 +35,7 @@
 
   OBSERVATORY + MODEL + NUDGE only — NON-DIAGNOSTIC, NON-THERAPEUTIC, sells NOTHING.
   No :tsuchifumi/diagnose / :treat / :product / :person.* datom is ever emitted."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [tsuchifumi.methods.tsuchifumi-edn :as te]))
 
 ;; ── thresholds + weights ─────────────────────────────────────────────────────

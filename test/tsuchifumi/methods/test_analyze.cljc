@@ -4,7 +4,7 @@
 (ns tsuchifumi.methods.test-analyze
   (:require [tsuchifumi.methods.tsuchifumi-edn :as te]
             [tsuchifumi.methods.analyze :as an]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [clojure.test :refer [deftest is run-tests]]))
 
 (def seed-path "data/kotoba-seed.edn")

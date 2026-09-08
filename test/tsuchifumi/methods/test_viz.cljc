@@ -4,7 +4,7 @@
 (ns tsuchifumi.methods.test-viz
   (:require [tsuchifumi.methods.tsuchifumi-edn :as te]
             [tsuchifumi.methods.viz :as viz]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [clojure.test :refer [deftest is run-tests]]))
 
 (def seed (te/load-seed "data/kotoba-seed.edn"))

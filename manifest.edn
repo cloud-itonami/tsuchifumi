@@ -37,15 +37,15 @@
   {:n/id "N6" :n/rule "Never publishes to atproto itself — drafts dry-run proposals; ossekai 御節介 carries them with member consent (G8)"}]
 
  :actor/methods
- [{:method/id "tsuchifumi_edn" :method/file "src/tsuchifumi/methods/tsuchifumi_edn.cljc" :method/role "seed loader + classify (regions/evidence/drivers)"}
-  {:method/id "analyze" :method/file "src/tsuchifumi/methods/analyze.cljc" :method/role "exposure-load × earthing-deficit → verdict (evidence-honest) → relief-gap → datoms → report (+ bb CLI)"}
-  {:method/id "sysdyn"  :method/file "src/tsuchifumi/methods/sysdyn.cljc"  :method/role "system-dynamics stocks/flows; distribution-only ensemble; scenario comparison (neglect/baseline/relief) (+ bb CLI)"}
-  {:method/id "risk"    :method/file "src/tsuchifumi/methods/risk.cljc"    :method/role "risk register (evidence-discounted) + Meadows leverage points → datoms → report (+ bb CLI)"}
-  {:method/id "coscientist" :method/file "src/tsuchifumi/methods/coscientist.cljc" :method/role "特定+分析: Generate→Reflect→Rank→Evolve→Meta-review over a charter-clean catalog; IDENTIFY top no-regret action (→ossekai) + top contested research hypothesis (→suimin/mitooshi, studied not acted on) (+ bb CLI)"}
-  {:method/id "social"  :method/file "src/tsuchifumi/methods/social.cljc"  :method/role "DRY-RUN atproto おせっかい posts (G1/G2/G4/G5 + no-server-key) routed to ossekai (+ bb CLI)"}
-  {:method/id "viz"     :method/file "src/tsuchifumi/methods/viz.cljc"     :method/role "self-contained HTML viz (system dynamics bands + leverage + relief-gap) from real method output (+ bb CLI)"}
-  {:method/id "kotoba"  :method/file "src/tsuchifumi/methods/kotoba.cljc"  :method/role "持続永続化: content-addressed append-only OBSERVATION LEDGER (tx-cid/make-tx/append-tx/read-log/verify-chain)"}
-  {:method/id "autorun" :method/file "src/tsuchifumi/methods/autorun.cljc" :method/role "持続永続化: deterministic, idempotent-by-content heartbeat — analyze+risk → append datoms to the ledger (+ bb CLI)"}]
+ [{:method/id "tsuchifumi_edn" :method/file "src/tsuchifumi/methods/tsuchifumi_edn.kotoba" :method/role "seed loader + classify (regions/evidence/drivers)"}
+  {:method/id "analyze" :method/file "src/tsuchifumi/methods/analyze.kotoba" :method/role "exposure-load × earthing-deficit → verdict (evidence-honest) → relief-gap → datoms → report (+ bb CLI)"}
+  {:method/id "sysdyn"  :method/file "src/tsuchifumi/methods/sysdyn.kotoba"  :method/role "system-dynamics stocks/flows; distribution-only ensemble; scenario comparison (neglect/baseline/relief) (+ bb CLI)"}
+  {:method/id "risk"    :method/file "src/tsuchifumi/methods/risk.kotoba"    :method/role "risk register (evidence-discounted) + Meadows leverage points → datoms → report (+ bb CLI)"}
+  {:method/id "coscientist" :method/file "src/tsuchifumi/methods/coscientist.kotoba" :method/role "特定+分析: Generate→Reflect→Rank→Evolve→Meta-review over a charter-clean catalog; IDENTIFY top no-regret action (→ossekai) + top contested research hypothesis (→suimin/mitooshi, studied not acted on) (+ bb CLI)"}
+  {:method/id "social"  :method/file "src/tsuchifumi/methods/social.kotoba"  :method/role "DRY-RUN atproto おせっかい posts (G1/G2/G4/G5 + no-server-key) routed to ossekai (+ bb CLI)"}
+  {:method/id "viz"     :method/file "src/tsuchifumi/methods/viz.kotoba"     :method/role "self-contained HTML viz (system dynamics bands + leverage + relief-gap) from real method output (+ bb CLI)"}
+  {:method/id "kotoba"  :method/file "src/tsuchifumi/methods/kotoba.kotoba"  :method/role "持続永続化: content-addressed append-only OBSERVATION LEDGER (tx-cid/make-tx/append-tx/read-log/verify-chain)"}
+  {:method/id "autorun" :method/file "src/tsuchifumi/methods/autorun.kotoba" :method/role "持続永続化: deterministic, idempotent-by-content heartbeat — analyze+risk → append datoms to the ledger (+ bb CLI)"}]
 
  :actor/lex
  [{:lex/id "reliefVerdict"}
@@ -73,7 +73,7 @@
  :actor/tests
  {:runner "babashka"
   :cmd "bb test"
-  :suites ["test/tsuchifumi/methods/test_ontology.cljc" "test/tsuchifumi/methods/test_analyze.cljc" "test/tsuchifumi/methods/test_sysdyn.cljc"
-           "test/tsuchifumi/methods/test_risk.cljc" "test/tsuchifumi/methods/test_coscientist.cljc" "test/tsuchifumi/methods/test_social.cljc"
-           "test/tsuchifumi/methods/test_kotoba.cljc" "test/tsuchifumi/methods/test_autorun.cljc" "test/tsuchifumi/methods/test_viz.cljc"]
+  :suites ["test/tsuchifumi/methods/test_ontology.kotoba" "test/tsuchifumi/methods/test_analyze.kotoba" "test/tsuchifumi/methods/test_sysdyn.kotoba"
+           "test/tsuchifumi/methods/test_risk.kotoba" "test/tsuchifumi/methods/test_coscientist.kotoba" "test/tsuchifumi/methods/test_social.kotoba"
+           "test/tsuchifumi/methods/test_kotoba.kotoba" "test/tsuchifumi/methods/test_autorun.kotoba" "test/tsuchifumi/methods/test_viz.kotoba"]
   :green "56 tests / 197 assertions"}}

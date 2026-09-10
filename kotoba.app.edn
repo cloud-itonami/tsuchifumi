@@ -2,6 +2,6 @@
 {:kotoba.app/name    "tsuchifumi"
  :kotoba.app/version "0.1.0"
  :kotoba.app/components
- [{:name "tsuchifumi" :src "src/tsuchifumi/methods/mesh.clj" :scale 1
+ [{:name "tsuchifumi" :src "src/tsuchifumi/methods/mesh.kotoba" :scale 1
    :triggers [{:type :kse :topic "etzhayyim/actor/tsuchifumi"}] :requires #{:cap/kqe}}]
  :kotoba.app/placement {:spread :zone :require {:tier "edge"}}}

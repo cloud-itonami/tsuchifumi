@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; tsuchifumi 土踏み — self-contained visualization generator (clj-native, pure stdlib).
 (ns tsuchifumi.methods.viz
   "viz.cljc — tsuchifumi 土踏み visualization generator (ADR-2606212000).

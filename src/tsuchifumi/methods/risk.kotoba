@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; tsuchifumi 土踏み — risk register + Meadows leverage points (clj-native, pure stdlib).
 (ns tsuchifumi.methods.risk
   "tsuchifumi 土踏み — risk analysis of the earthing-EMF gap (ADR-2606212000).

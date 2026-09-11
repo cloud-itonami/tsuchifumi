@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; tsuchifumi 土踏み — ontology ↔ seed parity + negative-space (unrepresentable) tests.
 ;; Run: bb test
 (ns tsuchifumi.methods.test-ontology

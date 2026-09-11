@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; tsuchifumi 土踏み — content-addressed ledger tests (tamper-evidence).
 ;; Run: bb test
 (ns tsuchifumi.methods.test-kotoba

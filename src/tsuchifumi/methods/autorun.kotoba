@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; tsuchifumi 土踏み — autonomous heartbeat: assess → append verdicts+risk to the ledger.
 (ns tsuchifumi.methods.autorun
   "autorun.cljc — tsuchifumi 土踏み deterministic heartbeat (ADR-2606212000).

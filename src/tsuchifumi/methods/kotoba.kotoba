@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; tsuchifumi 土踏み — observation-ledger kotoba Datom-log writer (content-addressed).
 (ns tsuchifumi.methods.kotoba
   "kotoba.cljc — tsuchifumi 土踏み append-only OBSERVATION LEDGER writer

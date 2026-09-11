@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; tsuchifumi 土踏み — co-scientist: IDENTIFY (特定) + ANALYZE (分析) (clj-native, pure stdlib).
 (ns tsuchifumi.methods.coscientist
   "coscientist — tsuchifumi 土踏み reasons about the earthing-EMF gap like a research

@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; tsuchifumi 土踏み — heartbeat tests (append + idempotent-by-content + resume-safe).
 ;; Run: bb test
 (ns tsuchifumi.methods.test-autorun

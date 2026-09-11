@@ -72,7 +72,7 @@
 
  :actor/tests
  {:runner "babashka"
-  :cmd "bb test"
+  :cmd "kbb -M:test"
   :suites ["test/tsuchifumi/methods/test_ontology.kotoba" "test/tsuchifumi/methods/test_analyze.kotoba" "test/tsuchifumi/methods/test_sysdyn.kotoba"
            "test/tsuchifumi/methods/test_risk.kotoba" "test/tsuchifumi/methods/test_coscientist.kotoba" "test/tsuchifumi/methods/test_social.kotoba"
            "test/tsuchifumi/methods/test_kotoba.kotoba" "test/tsuchifumi/methods/test_autorun.kotoba" "test/tsuchifumi/methods/test_viz.kotoba"]

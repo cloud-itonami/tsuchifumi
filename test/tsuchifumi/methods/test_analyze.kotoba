@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; tsuchifumi 土踏み — analyze (relief gate + evidence-honesty) tests.
 ;; Run: bb test
 (ns tsuchifumi.methods.test-analyze

@@ -10,12 +10,12 @@ EDN is canonical for identity, manifest, ontology, schema, seed data, and the
 append-only observation ledger.
 
 ```bash
-bb test
-bb -m tsuchifumi.methods.analyze
-bb -m tsuchifumi.methods.sysdyn
-bb -m tsuchifumi.methods.risk
-bb -m tsuchifumi.methods.coscientist
-bb -m tsuchifumi.methods.viz
+kbb -M:test
+kbb -m tsuchifumi.methods.analyze
+kbb -m tsuchifumi.methods.sysdyn
+kbb -m tsuchifumi.methods.risk
+kbb -m tsuchifumi.methods.coscientist
+kbb -m tsuchifumi.methods.viz
 ```
 
 Implementation lives in `src/tsuchifumi/`, tests in `test/tsuchifumi/`, actor

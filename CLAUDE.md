@@ -8,4 +8,4 @@
 - Do not reintroduce Go, TinyGo, shell launchers, or former monorepo paths.
 - Preserve evidence-tier honesty, non-diagnostic behavior, aggregate-only data,
   no-commerce, distribution-only modeling, and no-server-key invariants.
-- Run `bb test` before publishing changes.
+- Run `kbb -M:test` before publishing changes.

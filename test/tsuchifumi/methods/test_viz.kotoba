@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; tsuchifumi 土踏み — visualization generator tests (real data, self-contained HTML).
 ;; Run: bb test
 (ns tsuchifumi.methods.test-viz

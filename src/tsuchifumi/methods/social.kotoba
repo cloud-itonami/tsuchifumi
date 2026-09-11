@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; tsuchifumi 土踏み — DRY-RUN atproto おせっかい (ossekai) post projection (clj-native).
 (ns tsuchifumi.methods.social
   "social.cljc — tsuchifumi 土踏み DRY-RUN social-proto / atproto post projection

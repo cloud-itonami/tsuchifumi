@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; tsuchifumi 土踏み — atproto ossekai post-invariant tests (G1/G2/G4/G5 + no-server-key).
 ;; Run: bb test
 (ns tsuchifumi.methods.test-social

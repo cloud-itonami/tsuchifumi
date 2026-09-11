@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; tsuchifumi 土踏み — seed loader + classifier (clj-native, pure stdlib).
 (ns tsuchifumi.methods.tsuchifumi-edn
   "tsuchifumi 土踏み — load + classify the seed substrate (data/kotoba-seed.edn).

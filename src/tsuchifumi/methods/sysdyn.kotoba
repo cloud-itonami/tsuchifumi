@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; tsuchifumi 土踏み — system-dynamics model (stocks/flows; clj-native, pure stdlib).
 (ns tsuchifumi.methods.sysdyn
   "tsuchifumi 土踏み — system-dynamics model of earthing under-institutionalization

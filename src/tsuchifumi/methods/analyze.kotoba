@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; tsuchifumi 土踏み — the earthing-EMF Wellbecoming relief GATE (clj-native, pure stdlib).
 (ns tsuchifumi.methods.analyze
   "tsuchifumi 土踏み — bioelectric-Wellbecoming relief gate (ADR-2606212000).
